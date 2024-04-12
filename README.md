@@ -52,5 +52,6 @@ Click the "Calculate Tax" button to see the tax calculation results in a modal
 npm test
 This will run the test cases and display the results in the console.
 ## Languages
+## Languages
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=dark)
