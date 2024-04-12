@@ -1,10 +1,10 @@
 # Tex_Calculator-
 
-##Introduction
+## Introduction
 
 The tax calculator is a web-based application that allows users to easily calculate their tax liability based on their gross annual income, extra income, and age group. It provides a user-friendly interface and handles input validation to ensure accurate tax calculations. The project was built using React, Bootstrap, and other modern web development technologies.
 
-##References & Requirements
+## References & Requirements
 
 - The tax calculation works based on this formula -
     - Overall income (after deductions) under 8 (≤) Lakhs is not taxed.
@@ -37,15 +37,14 @@ To run the tax calculator locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/tax-calculator.git
 
-##Navigate to the project directory:
+## Navigate to the project directory:
    cd tax-calculator
-##Install the dependencies
+## Install the dependencies
    npm install
-##Start the development server
+## Start the development server
   npm start
 Open your browser and navigate to http://localhost:3000 to view the application.
-
-##Usage
+## Usage
 Enter your Gross Annual Income and Extra Income in the respective input fields.
 Select your Age Group from the dropdown.
 Click the "Calculate Tax" button to see the tax calculation results in a modal
