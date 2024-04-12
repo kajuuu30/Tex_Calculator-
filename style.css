@@ -1,0 +1,8 @@
+.invalid-feedback {
+    display: flex;
+    align-items: center;
+  }
+  
+  .invalid-feedback i {
+    margin-right: 0.5rem;
+  }

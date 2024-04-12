@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Tax Calculator</h1>
+    <form id="tax-calculator-form">
+      <div class="form-group">
+        <label for="gross-annual-income">Gross Annual Income</label>
+        <input type="number" class="form-control" id="gross-annual-income" placeholder="Enter gross annual income">
+        <div class="invalid-feedback d-none">
+          <i class="fas fa-exclamation-circle"></i> Please enter a valid number.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="extra-income">Extra Income</label>
+        <input type="number" class="form-control" id="extra-income" placeholder="Enter extra income">
+        <div class="invalid-feedback d-none">
+          <i class="fas fa-exclamation-circle"></i> Please enter a valid number.
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="age-group">Age Group</label>
+        <select class="form-control" id="age-group">
+          <option value="">Select age group</option>
+          <option value="under-40">Under 40</option>
+          <option value="40-60">40 to 60</option>
+          <option value="over-60">Over 60</option>
+        </select>
+        <div class="invalid-feedback d-none">
+          <i class="fas fa-exclamation-circle"></i> Please select an age group.
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Calculate Tax</button>
+    </form>
+  </div>
+
+  <div class="modal fade" id="tax-result-modal" tabindex="-1" role="dialog" aria-labelledby="tax-result-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tax-result-modal-label">Tax Calculation Result</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Your overall income: <span id="overall-income"></span></p>
+          <p>Tax amount: <span id="tax-amount"></span></p>
+          <p>Income after tax deductions: <span id="income-after-tax"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
