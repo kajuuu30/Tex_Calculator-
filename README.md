@@ -53,5 +53,5 @@ npm test
 This will run the test cases and display the results in the console.
 ## Languages
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=dark)
-languages used is HTML CSS Javascript
+![HTML,CSS,Javascript](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=dark)
+
