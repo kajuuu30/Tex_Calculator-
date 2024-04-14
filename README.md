@@ -1,4 +1,4 @@
-# Tex_Calculator-
+# Tax_Calculator-
 
 ## Introduction
 
